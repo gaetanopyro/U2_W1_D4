@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "indie flower";
   display: flex;
   flex-wrap: wrap;
   margin-inline: auto;
@@ -14,6 +14,8 @@ body {
 }
 h1 {
   text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
 }
 
 h1,
@@ -23,14 +25,60 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
+  margin-top: 1rem;
 }
 .postit {
   height: 200px;
   width: 250px;
-  border: 0.5px solid black;
+  border: 0.2px solid black;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
+  box-shadow: 5px 5px 10px 2px #000000;
+}
+.n1 {
+  background-color: #f9fac8;
+  margin: 1rem;
+  transform: rotate(-30deg);
+}
+
+.n2 {
+  background-color: #bce3be;
+  margin: 1rem;
+  transform: rotate(-5deg);
+}
+.n3 {
+  background-color: #c6c6f1;
+  margin: 1rem;
+  transform: rotate(15deg);
+}
+.n4 {
+  background-color: #bce3be;
+  margin: 1rem;
+  transform: rotate(-5deg);
+}
+.n5 {
+  background-color: #f9fac8;
+  margin: 1rem;
+  transform: rotate(-30deg);
+}
+.n6 {
+  background-color: #c6c6f1;
+  margin: 1rem;
+  transform: rotate(15deg);
+}
+.n7 {
+  background-color: #f9fac8;
+  margin: 1rem;
+  transform: rotate(-30deg);
+}
+.n8 {
+  background-color: #bce3be;
+  margin: 1rem;
+  transform: rotate(8deg);
+}
+.postit:hover {
+  transform: unset;
+  transition: transform 1s;
 }
